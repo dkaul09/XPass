@@ -182,7 +182,7 @@ I will be adding the code for both the **backend** and **frontend** soon, along 
 
 - I will be focusing on how to tackle/address the data imbalance, in order to improve the performance of predicting incomplete passes, especially by improving precision. I will look at more research papers and see what can be done.
 
-- I was thinking of trying to predict the intended pass location for passes that have been incomplete. This can help the model improve predictions by understanding the common features/situations in which a pass is incomplete or has a very low probability of being completed. This can be done with the use of physical models and including the velocities of the ball and players. I will explore how to get the velocity of the players and ball through extracting info from the Statsbomb event and 360 dataa
+- I was thinking of trying to predict the intended pass location for passes that have been incomplete. This can help the model improve predictions by understanding the common features/situations in which a pass is incomplete or has a very low probability of being completed. This can be done with the use of physical models and including the velocities of the ball and players. I will explore how to get the velocity of the players and ball through extracting info from the Statsbomb event and 360 data.
 
 ---
 
