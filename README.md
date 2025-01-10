@@ -196,7 +196,7 @@ I will be adding the code for both the **backend** and **frontend** soon, along 
 
 #### Explanation of Key Functions
 
-In order to predict the outcome of passes in football, particularly for complex situations where defenders and teammates influence the pass trajectory, two key features are essential: the cone around the pass and the Gaussian weights associated with players in that cone. Below are the explanations for the two functions that help in calculating these features:
+In order to predict the outcome of passes in football, particularly for complex situations where defenders and teammates influence the pass trajectory, two key features are essential: the cone around the pass and the Gaussian weights associated with players in that cone. The functions are available in the master.ipynb file. Below are the explanations for the two functions that help in calculating these features:
 
 1. **calculate_cone_features()**
 
