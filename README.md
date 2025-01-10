@@ -150,14 +150,11 @@ Gradient Boosting (Class Weights) slightly emerged as the best-performing model,
 
 #### **Current Challenges and Limitations**
 
-An improvement is still needed in identifying incomplete passes. This limitation arises from the class imbalance in the current dataset, where most passes are completed, and the model tends to favor predicting completions.
+As the results above indicate, an improvement is still needed in identifying incomplete passes, as precision is very poor when it comes to predicting incomplete passes. This limitation arises from the class imbalance in the current dataset, where most passes are completed, and the model tends to favor predicting completions.
 
-- **Impact on Model Performance**: 
-  - The model prioritizes predicting completions over incompletions, which is problematic for high-stakes scenarios, such as breaking defensive lines or executing risky passes.
+As a result, incomplete or low-probability passes are more difficult to predict and quantify, and the model tends to overestimate the likelihood of these passes being completed. This overestimation makes it harder to accurately differentiate between easier, completed passes and riskier, incomplete passes. This issue would need to be addressed if this project is to be used for broadcasting purposes, as it could significantly impact the reliability of the predictions and potentially misinform viewers.
 
-  - Incomplete or low-probability passes are often overestimated, which makes it harder to differentiate and assign a meaningful quantitative value to such passes.
-
-  - This issue is especially critical for the project's long-term goal of being used in broadcasting, where accurate evaluations of both completed and incomplete passes are essential for meaningful insights.
+I will outline the potential solutions I will be researching in the next steps section (#next-steps-and-current-focusupdates-diary).
 
 
 ## 4. **Web Application**
