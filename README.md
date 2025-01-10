@@ -141,8 +141,6 @@ Gradient Boosting (Class Weights) slightly emerged as the best-performing model,
 - **Recall**: 84.41%
 - **Precision**: 45.78%
 
-- **Feature Importance Visualization for Gradient Boosting**: <img width="1094" alt="image" src="https://github.com/user-attachments/assets/cc8fa3b8-f987-41be-b1dc-9c82db3824ab" />
-
 ---
 
 #### **Current Challenges and Limitations**
