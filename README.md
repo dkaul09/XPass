@@ -108,7 +108,7 @@ I have experimented with **Random Forest** and **Gradient Boosting** algorithms 
 
 - **Handling Non-Linear Relationships**: Both models are well-suited for capturing complex, non-linear patterns.
 - **Dealing with Imbalanced Data**: Both models have mechanisms to handle class imbalance (e.g., Random Forest with class weighting, Gradient Boosting with iterative learning).
-- **Research**: Based on several research papers on sports analytics and predictive modeling, both algorithms have been proven effective.
+
 
 #### Addressing Class Imbalance
 
