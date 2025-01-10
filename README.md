@@ -92,7 +92,7 @@ Currently, the model includes the following features:
 
 - **pass_length**: The length of the pass.
 - **pass_angle**: The angle of the pass between the passer and the location of the end of the pass.
-- **gaussian_opponent_weight**: A metric quantifying opponent pressure around the passer and receiver, calculated using the **Gaussian Distribution** and a **45-degree cone** (details in `master.ipynb`).
+- **gaussian_opponent_weight**: A metric quantifying opponent pressure around the passer and receiver, calculated using the **Gaussian Distribution** and a **45-degree cone** (details in `master.ipynb`). More reasoning info can be found in the [Logic behind Cone and Gaussian Functions section](#logic-behind-cone-and-gaussian-functions)
 - **gaussian_teammate_weight**: A measure of teammate support around the passer.
 - **log_ratio**: A logarithmic feature representing the ratio of Gaussian-weighted opponent pressure to Gaussian-weighted teammate support, quantifying the relative challenge or support around the passer.
 - **x_start, y_start**: Starting coordinates of the pass.
@@ -154,7 +154,7 @@ As the results above indicate, an improvement is still needed in identifying inc
 
 As a result, incomplete or low-probability passes are more difficult to predict and quantify, and the model tends to overestimate the likelihood of these passes being completed. This overestimation makes it harder to accurately differentiate between easier, completed passes and riskier, incomplete passes. This issue would need to be addressed if this project is to be used for broadcasting purposes, as it could significantly impact the reliability of the predictions and potentially misinform viewers.
 
-I will outline the potential solutions I will be researching in the next steps section (#next-steps-and-current-focusupdates-diary).
+I will outline the potential solutions I will be researching in the next steps section [here](#next-steps-and-current-focusupdates-diary).
 
 
 ## 4. **Web Application**
