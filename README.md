@@ -222,6 +222,9 @@ This function uses Gaussian weights to quantify the influence of players inside 
 
 By applying this technique, we can simulate how opponent pressure influences a pass, especially in tight situations where the pass is at risk of being intercepted or blocked.
 
+![image](https://github.com/user-attachments/assets/cdd025b9-df37-4c87-aa14-1daccf272f0d)
+
+
 ---
 
 ### Credit and Inspiration
