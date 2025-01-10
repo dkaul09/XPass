@@ -1,5 +1,7 @@
 # Expected Pass Value (xPass) Predictor
 
+![Player Passing the Ball](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxoYmR5ZTRydmZocGVtejZranh0MTY1eTV1NnNiNTN6Zm5uaGd2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y9UJ6h2MUzZLmENask/giphy.gif)
+
 ## 📋 Table of Contents
 
 1. [Project Overview](#project-overview)
