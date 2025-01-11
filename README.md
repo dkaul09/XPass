@@ -260,6 +260,11 @@ Make sure to clone this repositry before following the instructions below.
 2. **Start the Frontend:**
    - Navigate to the browser and visit `http://localhost:3000`.
 
+3. **See a Screenshot of the Application:**
+   - Below is a preview of how the application should look when it’s running.
+     <img width="1440" alt="image" src="https://github.com/user-attachments/assets/b6886aa9-30ac-4607-b708-b945b02f0caa" />
+
+
 ---
 
 
