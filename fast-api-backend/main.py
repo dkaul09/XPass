@@ -5,12 +5,13 @@ from typing import List, Optional
 import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
 import joblib
+import os 
 import pandas as pd
 
 
 
 app = FastAPI()
-MODEL_PATH = "/Users/dhruvkaul/Desktop/pass_predictor_application/fast-api-backend/models/gradient_boosting_model.pkl"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "models", "gradient_boosting_model.pkl")
 
 
 try:
