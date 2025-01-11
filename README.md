@@ -16,8 +16,9 @@
 7. [Next Steps and Current Focus/Updates Diary](#next-steps-and-current-focusupdates-diary)
 8. [Files](#files)
 9. [How to Run the Project](#how-to-run-the-project)
-10. [Logic behind Cone and Gaussian Functions](#logic-behind-cone-and-gaussian-functions)
-11. [Credit and Inspiration](#credit-and-inspiration)
+10. [How to Use the Application) (#how-to-use-the-application)
+11. [Logic behind Cone and Gaussian Functions](#logic-behind-cone-and-gaussian-functions)
+12. [Credit and Inspiration](#credit-and-inspiration)
 
 ---
 
@@ -266,6 +267,31 @@ Make sure to clone this repositry before following the instructions below.
 
 
 ---
+
+## How to Use the Application
+
+Follow the steps below to use the application:
+
+1. **Adjust Player Positions:**  
+   Move the players on the pitch to set up the scenario as you like.
+
+2. **Select the Pass Height:**  
+   Choose the height of the pass (e.g., Ground Pass, Low Pass, or High Pass) using the dropdown menu.
+
+3. **Select the Play Pattern:**  
+   Pick the type of play (e.g., Regular Play or Free Kick) from the dropdown menu.
+
+4. **Select a Passer:**  
+   Click the "Select Passer" button and choose one of the blue counters to act as the passer.
+
+5. **Select a Receiver:**  
+   Click the "Select Receiver" button and choose another blue counter as the receiver.
+
+6. **Calculate the 45° Cone:**  
+   Click the "Calculate 45° Cone" button to calculate the cone of influence for the pass.
+
+7. **Predict the Pass:**  
+   Click the "Predict Pass" button to see the results.
 
 
 ## **Logic behind Cone and Gaussian Functions**
