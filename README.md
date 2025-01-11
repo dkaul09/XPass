@@ -15,8 +15,9 @@
 6. [Progress so far](#progress-so-far)
 7. [Next Steps and Current Focus/Updates Diary](#next-steps-and-current-focusupdates-diary)
 8. [Files](#files)
-9. [Logic behind Cone and Gaussian Functions](#logic-behind-cone-and-gaussian-functions)
-10. [Credit and Inspiration](#credit-and-inspiration)
+9. [How to Run the Project](#how-to-run-the-project)
+10. [Logic behind Cone and Gaussian Functions](#logic-behind-cone-and-gaussian-functions)
+11. [Credit and Inspiration](#credit-and-inspiration)
 
 ---
 
@@ -188,6 +189,79 @@ I will be adding the code for both the **backend** and **frontend** soon, along 
 **master.ipynb:** This file merges and preprocesses StatsBomb 360 Freeze Frame and event data. The preprocessing steps filter the data to retain only passes completed by foot during regular play or free kicks. Then, cone and Gaussian features are calculated for each pass and used to train the models to predict pass outcomes and xPass (xP) values.
 
 ---
+
+## **How to Run the Project**
+
+Make sure to clone this repositry before following the instructions below.
+
+### Backend Setup 
+
+1. **Set up Conda (if not already installed):**
+
+2. **Create and Activate a Virtual Environment:**
+   - Run the following commands:
+     ```bash
+     conda create -n xpass-env python=3.9 -y
+     conda activate xpass-env
+     ```
+
+3. **Navigate to the Backend Directory:**
+   - Change into the backend folder:
+     ```bash
+     cd fast-api-backend
+     ```
+
+4. **Install Dependencies:**
+   - Install all required Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+5. **Run the Backend Server:**
+   - Start the FastAPI backend server:
+     ```bash
+     uvicorn main:app --reload
+     ```
+   - The backend will now be accessible at `http://127.0.0.1:8000`.
+
+---
+### Frontend Setup 
+
+1. **Navigate to the Frontend Directory:**
+   - Create a new terminal and change into the frontend folder:
+     ```bash
+     cd soccer-pitch-app
+     ```
+
+2. **Install Node.js Dependencies:**
+   - Make sure `Node.js` and `yarn` are installed on your system. If not, [install Node.js](https://nodejs.org/) and run:
+     ```bash
+     npm install --global yarn
+     ```
+
+   - Then, install dependencies:
+     ```bash
+     yarn install
+     ```
+
+3. **Run the Frontend Development Server:**
+   - Start the frontend React application:
+     ```bash
+     yarn start
+     ```
+   - The application will be available at `http://localhost:3000`.
+
+---
+### Running the Application
+
+1. **Ensure the Backend is Running:**
+   - FastAPI backend should be running at `http://127.0.0.1:8000`.
+
+2. **Start the Frontend:**
+   - Navigate to the browser and visit `http://localhost:3000`.
+
+---
+
 
 ## **Logic behind Cone and Gaussian Functions**
 
