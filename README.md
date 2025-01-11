@@ -16,7 +16,7 @@
 7. [Next Steps and Current Focus/Updates Diary](#next-steps-and-current-focusupdates-diary)
 8. [Files](#files)
 9. [How to Run the Project](#how-to-run-the-project)
-10. [How to Use the Application) (#how-to-use-the-application)
+10. [Go back to How to Use the Application](#how-to-use-the-application)
 11. [Logic behind Cone and Gaussian Functions](#logic-behind-cone-and-gaussian-functions)
 12. [Credit and Inspiration](#credit-and-inspiration)
 
