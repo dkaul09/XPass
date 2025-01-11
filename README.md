@@ -268,7 +268,7 @@ Make sure to clone this repositry before following the instructions below.
 
 ---
 
-## How to Use the Application
+## **How to Use the Application**
 
 Follow the steps below to use the application:
 
