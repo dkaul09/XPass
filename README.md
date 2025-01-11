@@ -171,8 +171,6 @@ The web app allows users to input various parameters, including:
 
 The app automatically calculates **pass direction** and **pass length** based on the locations of the passer and receiver. All features are then passed into the model to predict the pass outcome.
 
-I will be adding the code for both the **backend** and **frontend** soon, along with a demo of the application.
-
 ---
 
 ## **Next Steps and Current Focus/Updates Diary**
